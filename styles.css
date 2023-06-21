@@ -1,0 +1,166 @@
+
+
+/**  Icono Instagram **/
+
+ .bi-instagram {
+  padding-right: -5px;
+  margin-left: 10px;
+  }
+
+ .active {
+  
+  margin-left: -20px;
+  margin-top: 4px;
+  } 
+
+/** Barra de navegación inicial  **/
+
+ .row {   
+/**
+  background-color: white;
+  border: 1px solid rgb(110, 74, 5); **/
+  padding: 5px;
+  margin: 10px;
+  } 
+    
+ .col {
+  background-color: white;
+  color: white ;
+  font-size: 14px;
+ }
+  
+/** Nueve imágenes en tres filas y  tres columnas **/
+
+     .colfila1 {
+     margin-left: 0px;
+     }
+  
+     .colfila2 {
+     margin-right: -10px;
+     margin-left: -29px;
+     }
+
+     .colfila3 {
+     margin-right: 1px;
+     margin-left: -10px;
+     }
+
+     .colfila4 {
+     margin-left: 0px;
+     }
+    
+     .colfila5 {
+      margin-right: -10px;
+      margin-left: -29px;
+     }
+  
+     .colfila6 {
+      margin-right: 1px;
+      margin-left: -10px;
+     }
+
+     .colfila7 {
+      margin-left: 0px;
+     }
+      
+     .colfila8 {
+      margin-right: -10px;
+      margin-left: -29px;
+     }
+    
+      .colfila9 {
+      margin-right: 1px;
+      margin-left: -10px;
+     }
+
+
+
+ i {
+ font-size: 12px;
+ }
+
+/** Botones de selección en barra **/
+
+ .imagGrillada {
+ margin-left: 500px;
+ font-weight: 50;
+ }
+
+ .row-3 {
+ float: left;
+ }
+
+
+/** Imágenes en tres filas y una columna **/
+
+ .col-vertical1 {
+  float: left;
+  margin-left: 420px;
+  padding-bottom: 40px;
+  padding-top: 5px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  margin-bottom: 1px;
+  font-style: italic;
+  font-size: small;
+  color: black;
+ }
+
+
+ .col-vertical2 {
+  float: left;
+  margin-left: 420px;
+  padding-bottom: 40px;
+  padding-top: 5px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-style: italic;
+  font-size: small;
+  color: black;
+ }
+
+ .col-vertical3 {
+  float: left;
+  margin-left: 420px;
+  padding-top: 8px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 1px;
+  font-style: italic;
+  color: black;
+ }
+
+      
+ .text {
+ color: black;
+ margin-left: 4px;
+ }
+
+
+ h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 4px;
+  }
+      
+ h3 {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 4px;
+  }
+    
+    
+ h4 {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 290px;
+  margin-top: -26px;
+ }

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+  <html lang="es">
+
+<head>
+
+  <!-- Metadatos -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keyboard" content="HTML, CSS, Javascript, React">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+   <!-- Icons CDN Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  
+</head>
+
+
+<body>
+
+  <div class="container">
+ 
+    <!-- Seccion primera fila y tres columnas Grillada -->
+
+  <section id="imagenes-grillada"  class="imagenes-grillada">  
+
+    <!-- Barra inicial navegadora Logo Instagram -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="bi bi-instagram"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
+              Instagram</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">                               
+            </a>
+          </li>
+          
+  <!-- Separador-->
+            
+          <li class="nav-item">
+            <a class="nav-link disabled">         </a>
+          </li>
+       </ul>
+
+          <!-- -->
+
+
+  <!-- Barra inicial navegadora - Varying modal content   border: 2px solid blue;-->
+
+ <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Create a new post</button>
+
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <form>
+           <div class="mb-3">
+             <label for="recipient-name" class="col-form-label">Caption:</label>
+             <input type="text" class="form-control" id="recipient-name">
+           </div>
+           <div class="mb-3">
+             <label for="message-text" class="col-form-label">
+              <i class="bi bi-camera"> <i class="bi bi-geo-alt-fill"></i></i>
+            </label>
+             
+           </div>
+         </form>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         <button type="button" class="btn btn-primary">Finish</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ -       
+
+  <!-- Barra inicial navegadora - Dropdown - Gear fill -->
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-gear-fill"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li><button class="dropdown-item" type="button">Pause</button></li>
+              <li><button class="dropdown-item" type="button">Accesibility</button></li>
+              <li><button class="dropdown-item" type="button">Privacy and data</button></li>
+              <li><button class="dropdown-item" type="button">Logout</button></li>
+            </ul>
+          </div>
+
+
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+    <!-- Barra selección imagenes grilladas o en columna -->
+
+    <div class="row">  
+      <div class="col">  
+        <!--  -->
+       
+        <a class="btn btn-primary imagGrillada"  href="#imagenes-grillada" 
+        role="button"> <i class="bi bi-grid-3x3"></i> </a> 
+
+        <a class="btn btn-primary imagcolunma" href="#imagenes-columna" 
+        role="button"> <i class="bi bi-columns-gap"></i>  </a>
+
+     
+        
+      </div>  
+    </div>   
+
+
+ <!-- primera fila y tres columnas -->
+   
+ <div class="row">
+    <div class="col colfila1">
+      <img src="https://d8bwfgv5erevs.cloudfront.net/cdn/13/images/curso-online-psicologia-canina-y-felina_l_primaria_1.jpg"
+      width="350" height="200"> </div>
+
+    <div class="col colfila2">
+     <img src="https://vetformacion.com/ficheros/noticias/65.jpg"
+      width="360"  height="200"> </div>
+
+     <div class="col colfila3">
+     <img src="https://mvsnoticias.com/u/fotografias/m/2021/7/8/f1280x720-90501_222176_5050.jpg"
+      width="350" height="200"> </div>
+    </div>
+  
+ <!-- segunda fila y tres columnas -->
+    <div class="row">
+
+      <div class="col colfila4">
+        <img src="data:image/jpeg;base64,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"
+        width="350" height="200"> </div>
+
+        <div class="col colfila5">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe0Kfl92ZH9XU44RIYHdo9LhERtGtVqX4VVtodrKiJ10slNKHscUGATR24cm2zCiUxAfI&usqp=CAU"
+          width="360" height="200"> </div>
+
+       <div class="col colfila6">
+        <img src="https://static.eldiario.es/clip/463e8ed5-ab95-4036-8af6-b6da92714442_16-9-aspect-ratio_default_0.jpg"
+        width="350" height="200"> </div>
+      </div>
+
+    <!-- tercera fila y tres columnas 
+    width="240" height="180" -->
+
+
+    <div class="row">
+
+      <div class="col colfila7">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8AIj3A0YCYjxKkaQQK3ueblZvfB2H29yOJ7M8vNF_GQm35KEU-Uql9qtd7b0p01inAhs&usqp=CAU"
+        width="350" height="200"> </div>
+
+        <div class="col colfila8">
+          <img src="data:image/jpeg;base64,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"
+          width="360" height="200"> </div>
+
+       <div class="col colfila9">
+        <img src="https://www.purina-latam.com/sites/default/files/styles/social_share_large/public/purina-buenas-practicas-y-tips-de-adiestramiento-canino.jpg?itok=XUTKzPyyg"
+        width="350" height="200">  </div>
+       </div>
+      </section>
+
+
+
+
+
+     <!-- Imagenes en colunma - tres imagenes comentadas forma vertical -->
+
+   
+
+    <section id="imagenes-columna"  class="imagenes-columna">  
+    <div class="row-3">
+
+
+
+<!-- Barra inicial navegadora Logo Instagram -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><i class="bi bi-instagram"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Instagram</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">                               
+
+          </a>
+        </li>
+        
+<!-- Separador-->
+          
+        <li class="nav-item">
+          <a class="nav-link disabled">         </a>
+        </li>
+      </ul>
+
+        <!-- -->
+
+
+<!-- Barra inicial navegadora - Varying modal content   border: 2px solid blue;-->
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Create a new post</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <form>
+         <div class="mb-3">
+           <label for="recipient-name" class="col-form-label">Caption:</label>
+           <input type="text" class="form-control" id="recipient-name">
+         </div>
+         <div class="mb-3">
+           <label for="message-text" class="col-form-label">
+            <i class="bi bi-camera"> <i class="bi bi-geo-alt-fill"></i></i>
+          </label>
+           
+         </div>
+       </form>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <button type="button" class="btn btn-primary">Finish</button>
+     </div>
+   </div>
+ </div>
+</div>
+
+-       
+
+<!-- Barra inicial navegadora - Dropdown - Gear fill -->
+
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-gear-fill"></i>
+          </button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">Pause</button></li>
+            <li><button class="dropdown-item" type="button">Accesibility</button></li>
+            <li><button class="dropdown-item" type="button">Privacy and data</button></li>
+            <li><button class="dropdown-item" type="button">Logout</button></li>
+          </ul>
+        </div>
+
+
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+  <!-- Barra selección de imágenes grilladas por filas o fila -->
+      <div>
+        <div class="row">  
+         <div class="col">  
+           <!--  -->
+
+           <a class="btn btn-primary imagGrillada" href="#imagenes-grillada" 
+           role="button"> <i class="bi bi-grid-3x3"></i> </a>
+
+           <a class="btn btn-primary imagcolunma" href="#imagenes-columna" 
+           role="button"> <i class="bi bi-columns-gap"></i> </a>
+
+         </div>
+       </div>  
+
+
+ <!-- imágenes grilladas por fila -->
+
+
+    <div class="col col-vertical1"> <p> <h2>Cargo, el aventurero</h2> <h4> ¥ #</h4> </p> 
+    <img src="https://d8bwfgv5erevs.cloudfront.net/cdn/13/images/curso-online-psicologia-canina-y-felina_l_primaria_1.jpg"
+      width="320" height="200"> 
+   <div class="text"> <h3>2528 likes</h3> <p> Travieso e indetenible, Cargo corre por el <br> jardín en un dia poco amigable.</p>
+  </div> </div>
+
+    <div class="col col-vertical2"> <p> <h2>Carmina, la impaciente</h2> <h4> ¥ #</h4></p>
+    <img src="https://vetformacion.com/ficheros/noticias/65.jpg" 
+    width="320" height="200">
+    <div class="text"> <h3>2541 likes</h3> <p> Llegó la hora de almorzar, y el llamado <br> a comer se le hace infinito a Carmina.</p>
+    </div> </div>
+
+    <div class="col col-vertical3"> <p> <h2> Pancho. el radar</h2> <h4>     ¥ #</h4> </p>
+      <img src="https://mvsnoticias.com/u/fotografias/m/2021/7/8/f1280x720-90501_222176_5050.jpg"
+      width="320" height="200">
+     </div> 
+    
+    
+    </div>
+   </section>
+ 
+
+
+      <!-- Container fin  -->
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+ </body>
+</html>
